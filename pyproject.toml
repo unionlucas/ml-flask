@@ -1,0 +1,11 @@
+[project]
+name = "ml-flask"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.2",
+    "gunicorn>=23.0.0",
+    "scikit-learn>=1.7.2",
+]
